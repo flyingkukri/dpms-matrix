@@ -1,0 +1,80 @@
+<mxfile host="app.diagrams.net" modified="2024-01-31T08:23:04.652Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:121.0) Gecko/20100101 Firefox/121.0" etag="RaCJ0-iHa3dDSB-OOGUj" version="23.0.2" type="github">
+  <diagram name="Page-1" id="13e1069c-82ec-6db2-03f1-153e76fe0fe0">
+    <mxGraphModel dx="1190" dy="1183" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="7baba1c4bc27f4b0-2" value="Room" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="1" vertex="1">
+          <mxGeometry x="290" y="80" width="200" height="750" as="geometry" />
+        </mxCell>
+        <mxCell id="MVwnSfm6M6_i5L6kpWaZ-21" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="7baba1c4bc27f4b0-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-129.999090909091" y="620.0000000000002" as="sourcePoint" />
+            <mxPoint x="304.90999999999997" y="620.0000000000002" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MVwnSfm6M6_i5L6kpWaZ-23" value="Send the next task" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="7baba1c4bc27f4b0-2">
+          <mxGeometry x="20" y="590" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7baba1c4bc27f4b0-3" value="Camera" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="1" vertex="1">
+          <mxGeometry x="530" y="80" width="130" height="760" as="geometry" />
+        </mxCell>
+        <mxCell id="MVwnSfm6M6_i5L6kpWaZ-13" value="Send a confirmation over the direct room " style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="7baba1c4bc27f4b0-3">
+          <mxGeometry x="-260" y="459.55" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MVwnSfm6M6_i5L6kpWaZ-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="7baba1c4bc27f4b0-3" source="MVwnSfm6M6_i5L6kpWaZ-3" target="MVwnSfm6M6_i5L6kpWaZ-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MVwnSfm6M6_i5L6kpWaZ-3" value="synchandler " style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="7baba1c4bc27f4b0-3">
+          <mxGeometry x="15" y="239.55" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MVwnSfm6M6_i5L6kpWaZ-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="7baba1c4bc27f4b0-3" source="MVwnSfm6M6_i5L6kpWaZ-6" target="MVwnSfm6M6_i5L6kpWaZ-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MVwnSfm6M6_i5L6kpWaZ-6" value="evaulates requirements using requirementsCheck function" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="7baba1c4bc27f4b0-3">
+          <mxGeometry y="334.55" width="130" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="MVwnSfm6M6_i5L6kpWaZ-10" value="find or create a direct room " style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="7baba1c4bc27f4b0-3">
+          <mxGeometry x="5" y="459.55" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7baba1c4bc27f4b0-11" value="&lt;div&gt;send requirements&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;edgeStyle=elbowEdgeStyle;elbow=vertical;" parent="7baba1c4bc27f4b0-3" edge="1">
+          <mxGeometry x="0.0381" y="10" relative="1" as="geometry">
+            <mxPoint x="-375" y="220.0045454545454" as="sourcePoint" />
+            <mxPoint x="-138" y="220.0045454545454" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MVwnSfm6M6_i5L6kpWaZ-4" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="7baba1c4bc27f4b0-3" target="MVwnSfm6M6_i5L6kpWaZ-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-137.90909090909054" y="259.55" as="sourcePoint" />
+            <mxPoint x="10" y="339.55" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MVwnSfm6M6_i5L6kpWaZ-5" value="send event to sync handler" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="7baba1c4bc27f4b0-3">
+          <mxGeometry x="-180" y="229.55" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MVwnSfm6M6_i5L6kpWaZ-12" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="7baba1c4bc27f4b0-3" source="MVwnSfm6M6_i5L6kpWaZ-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-40" y="419.55" as="sourcePoint" />
+            <mxPoint x="-375.40909090909054" y="489.54999999999995" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MVwnSfm6M6_i5L6kpWaZ-24" value="&lt;div&gt;set the currentTask attribute&lt;/div&gt;&lt;div&gt;call completeTask&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="7baba1c4bc27f4b0-3">
+          <mxGeometry x="5" y="650" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7baba1c4bc27f4b0-8" value="Motion Sensor" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="1" vertex="1">
+          <mxGeometry x="60" y="80" width="200" height="735" as="geometry" />
+        </mxCell>
+        <mxCell id="MVwnSfm6M6_i5L6kpWaZ-1" value="completeTask" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="7baba1c4bc27f4b0-8">
+          <mxGeometry x="55" y="70" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MVwnSfm6M6_i5L6kpWaZ-17" value="searchingForNext=True" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="7baba1c4bc27f4b0-8">
+          <mxGeometry x="55" y="130" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MVwnSfm6M6_i5L6kpWaZ-18" value="check that searchingForNext == True&lt;br&gt;&lt;div&gt;searchingForNext = False&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="7baba1c4bc27f4b0-8">
+          <mxGeometry y="504" width="185" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

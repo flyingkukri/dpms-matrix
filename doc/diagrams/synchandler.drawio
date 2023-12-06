@@ -1,0 +1,36 @@
+<mxfile host="app.diagrams.net" modified="2024-02-19T09:17:42.568Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:122.0) Gecko/20100101 Firefox/122.0" etag="TC96UWzF1ZHghK9tm4bd" version="23.1.4" type="github">
+  <diagram name="Page-1" id="FWx31onQmwrhhwl4XQma">
+    <mxGraphModel dx="2074" dy="809" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="OTCzj-lAU1-DTKoyd4P--3" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="OTCzj-lAU1-DTKoyd4P--1" target="OTCzj-lAU1-DTKoyd4P--2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OTCzj-lAU1-DTKoyd4P--1" value="Server" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-42" y="167" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OTCzj-lAU1-DTKoyd4P--6" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="OTCzj-lAU1-DTKoyd4P--2" target="OTCzj-lAU1-DTKoyd4P--7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="258" y="347" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="261" y="246" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OTCzj-lAU1-DTKoyd4P--2" value="Client" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="198" y="167" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OTCzj-lAU1-DTKoyd4P--4" value="Answers Get request" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="40.5" y="161.5" width="167" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="OTCzj-lAU1-DTKoyd4P--7" value="Sync Handler" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="198" y="278" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OTCzj-lAU1-DTKoyd4P--8" value="Calls function" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="269" y="238" width="114" height="31" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

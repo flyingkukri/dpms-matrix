@@ -1,0 +1,86 @@
+<mxfile host="app.diagrams.net" modified="2023-12-13T10:14:49.475Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/119.0" etag="nZr99sPEx3NcHgp8zYR7" version="22.1.8" type="github">
+  <diagram name="Page-1" id="OLAdFZ55Ztd6Yh3_xLGf">
+    <mxGraphModel dx="474" dy="759" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="5Re7bg2j7D3VS-P8HYq1-2" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="410" y="200" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5Re7bg2j7D3VS-P8HYq1-3" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" edge="1" source="5Re7bg2j7D3VS-P8HYq1-2" parent="1" target="5Re7bg2j7D3VS-P8HYq1-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="425" y="290" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="425" y="260" />
+              <mxPoint x="426" y="260" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5Re7bg2j7D3VS-P8HYq1-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5Re7bg2j7D3VS-P8HYq1-4" target="5Re7bg2j7D3VS-P8HYq1-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5Re7bg2j7D3VS-P8HYq1-4" value="Start up all the machines" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="365" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5Re7bg2j7D3VS-P8HYq1-5" value="Send the first machine the signal to start the process" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="365" y="510" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5Re7bg2j7D3VS-P8HYq1-7" value="Main.Go" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="385" y="148" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5Re7bg2j7D3VS-P8HYq1-8" value="Machine Startup" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="140" y="500" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5Re7bg2j7D3VS-P8HYq1-9" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="195" y="550" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5Re7bg2j7D3VS-P8HYq1-10" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" edge="1" source="5Re7bg2j7D3VS-P8HYq1-9" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="210" y="640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5Re7bg2j7D3VS-P8HYq1-11" value="Join the matrix room as a homeserver" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="640" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5Re7bg2j7D3VS-P8HYq1-12" value="Machine when executing its task" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="510" y="500" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5Re7bg2j7D3VS-P8HYq1-13" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="590" y="560" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5Re7bg2j7D3VS-P8HYq1-14" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" edge="1" source="5Re7bg2j7D3VS-P8HYq1-13" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="605" y="650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5Re7bg2j7D3VS-P8HYq1-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5Re7bg2j7D3VS-P8HYq1-15" target="5Re7bg2j7D3VS-P8HYq1-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5Re7bg2j7D3VS-P8HYq1-15" value="Execute task (mocked)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="545" y="650" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5Re7bg2j7D3VS-P8HYq1-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5Re7bg2j7D3VS-P8HYq1-16" target="5Re7bg2j7D3VS-P8HYq1-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5Re7bg2j7D3VS-P8HYq1-16" value="Retrieve properties of external DPEs using interface 7" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="545" y="790" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5Re7bg2j7D3VS-P8HYq1-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="5Re7bg2j7D3VS-P8HYq1-18" target="5Re7bg2j7D3VS-P8HYq1-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5Re7bg2j7D3VS-P8HYq1-18" value="Send over interface 1 the workflow defintion" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="365" y="390" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5Re7bg2j7D3VS-P8HYq1-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5Re7bg2j7D3VS-P8HYq1-22" target="5Re7bg2j7D3VS-P8HYq1-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5Re7bg2j7D3VS-P8HYq1-22" value="select optimal Machine" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="545" y="930" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5Re7bg2j7D3VS-P8HYq1-24" value="Using interface 4, send process specification" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="545" y="1070" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

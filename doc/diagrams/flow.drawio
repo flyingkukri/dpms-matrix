@@ -1,0 +1,45 @@
+<mxfile host="app.diagrams.net" modified="2024-02-21T08:25:41.149Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:122.0) Gecko/20100101 Firefox/122.0" etag="70PFM324AH2kdAnRCQRx" version="23.1.5" type="github">
+  <diagram name="Page-1" id="akBjw9zmkZ8jsRoTbdPI">
+    <mxGraphModel dx="1020" dy="1156" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="zK7-34CPJCPcygGT5n4G-4" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;" parent="1" vertex="1">
+          <mxGeometry x="185" y="155" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zK7-34CPJCPcygGT5n4G-5" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;fontSize=12;" parent="1" source="zK7-34CPJCPcygGT5n4G-4" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="200" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zK7-34CPJCPcygGT5n4G-8" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" parent="1" source="zK7-34CPJCPcygGT5n4G-6" target="zK7-34CPJCPcygGT5n4G-7" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zK7-34CPJCPcygGT5n4G-6" value="Create engines using NewEngine" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="95" y="220" width="207" height="57" as="geometry" />
+        </mxCell>
+        <mxCell id="zK7-34CPJCPcygGT5n4G-10" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" parent="1" source="zK7-34CPJCPcygGT5n4G-7" target="zK7-34CPJCPcygGT5n4G-9" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zK7-34CPJCPcygGT5n4G-7" value="&lt;div&gt;Trigger the motion sensor;&lt;/div&gt;&lt;div&gt;motion sensor completes its task&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="92" y="312" width="216" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zK7-34CPJCPcygGT5n4G-14" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" parent="1" source="zK7-34CPJCPcygGT5n4G-9" target="zK7-34CPJCPcygGT5n4G-13" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zK7-34CPJCPcygGT5n4G-9" value="Use decider interface (7) to find machine for next task" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="92" y="418" width="222" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zK7-34CPJCPcygGT5n4G-13" value="Send the next task" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="92" y="524" width="222" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1U__MZoRFvJgKvRZrEVM-1" value="" style="endArrow=none;dashed=1;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="zK7-34CPJCPcygGT5n4G-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="262" y="612" as="sourcePoint" />
+            <mxPoint x="203" y="603" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
